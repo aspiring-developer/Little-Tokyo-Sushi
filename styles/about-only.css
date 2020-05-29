@@ -1,0 +1,52 @@
+.mainWrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: "auto auto auto auto";
+  grid-template-areas:
+    "h h h h"
+    "n n n n"
+    "cl cm cm cr"
+    "f f f f";
+}
+
+#about-main-content {
+  grid-area: cm;
+  background-image: url("../images/midColBgImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1em 0;
+  padding:2.5em 4em;
+  border: 2px solid #cccc5b;
+  align-content: center;
+  text-align: justify;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  opacity: .9;
+  }
+  #about-main-content p {
+  padding-top: .3em;
+  line-height: 1.5;
+  color: #000;
+}
+#about-main-content h1 {
+  font-size: 1.5em;
+  color: #a01414;
+  margin-bottom: .7em;
+}
+.rightCol {
+  grid-area: cr;
+ 
+}
+
+.rightCol img {
+margin: .8em; 
+margin-bottom: 15px;
+width: 240px; 
+height: 186px;
+ 
+}
+
+

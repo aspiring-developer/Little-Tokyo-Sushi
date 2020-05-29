@@ -1,0 +1,67 @@
+.mainWrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: "auto auto auto auto";
+  grid-template-areas:
+    "h h h h"
+    "n n n n"
+    "cl cm cm cm"
+    "f f f f";
+}
+ .lunch-menu-left-image {
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.8);
+}
+
+#lunch-main-content {
+  grid-area: cm;
+  background-image: url("../images/midColBgImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1em 0;
+  padding:2.5em 4em;
+  border: 2px solid #cccc5b;
+  align-content: center;
+  text-align: justify;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  opacity: .9;
+  }
+  #lunch-main-content p {
+  padding-top: .3em;
+  line-height: 1.5;
+  color: #000;
+}
+#lunch-main-content h1 {
+  font-size: 1.5em;
+  color: #a01414;
+  margin-bottom: .7em;
+}
+.menuTitle {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #434b10;
+	padding: 0px;
+	text-align: left;
+}
+.itemName {
+	font-weight: bold;
+	color: #052e64;
+	padding-left: 10px;
+	font-size: 1em;
+	line-height: normal;
+}
+.itemDescription {
+	padding-left: 10px;
+	font-size: .9em;
+	line-height: normal;
+}
+ul ul li{
+margin-left: 25px;
+}
+
+
+

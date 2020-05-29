@@ -1,0 +1,126 @@
+/* ########## MAIN ########## */
+@media screen and (min-width: 701px) and (max-width: 1023px) {
+  .mainWrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "h"
+      "n"
+      "cl"
+      "cm"
+      "cr"
+      "v"
+      "s1"
+      "s2"
+      "s3"
+      "f";
+  }
+
+  /* ########## TOP NAVIGATION ########## */
+  .mainNav {
+    padding: 0.5em;
+    text-align: center;
+  }
+
+  .mainNav ul li {
+    padding: 1em;
+    padding-right: 0;
+  }
+
+  .socialIcons {
+    float: none;
+    text-align: center;
+    padding: 0.3em 1.2em 0.3em 1em;
+    border: 1px solid #616b17;
+  }
+
+  /* ########## TOP CONTENT SECTION ########## */
+  .leftCol {
+    margin: 0.8em 0;
+    padding: 1em;
+    border: 1px solid #616b17;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .logoLeft {
+    padding-bottom: 0;
+  }
+
+  .leftCol p {
+    padding-top: 0.5em;
+    line-height: 1.2;
+  }
+
+  .midCol {
+    margin: 0;
+    margin-bottom: 0.8em;
+    padding: 3em;
+    border: 1px solid #616b17;
+    text-align: center;
+  }
+
+  .midCol p {
+    padding-top: 0;
+  }
+
+  .rightCol {
+    margin: 0;
+    margin-bottom: 0.8em;
+    padding: 3em;
+    border: 1px solid #616b17;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .rightCol p {
+    padding-top: 1em;
+    line-height: 1.5;
+  }
+
+  .rightCol hr {
+    display: none;
+  }
+
+  /* ########## BOTTOM CONTENT SECTION ########## */
+
+  .videoContainer {
+    margin-bottom: 0.8em;
+    border: 1px solid #616b17;
+    box-shadow: none;
+    padding: 0.5em 1em;
+  }
+  .leftCaption {
+    padding: 0.2em 0.7em 0.5em 0.7em;
+  }
+
+  /* ########## BOTTOM CONTENT SLIPS SECTION ########## */
+  .slipCommon {
+    margin-bottom: 0.8em;
+    border: 1px solid #616b17;
+    box-shadow: none;
+    padding: 0.5em 3em;
+  }
+
+  .slipCommon h5 {
+    padding: 0;
+  }
+
+  .slipCommon hr {
+    width: 15%;
+  }
+
+  .slipCommon p {
+    padding: 0 1.5em;
+  }
+
+  /* ########## FOOTER ########## */
+  .footer {
+    padding: 1em;
+    font-size: 0.7em;
+  }
+
+  .footer span {
+    display: block;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,77 @@
+.mainWrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: "auto auto auto auto";
+  grid-template-areas:
+    "h h h h"
+    "n n n n"
+    "cm cm cmr cmr"
+    "f f f f";
+}
+/* MAP SECTION */
+.map-area-wrapper{
+  grid-area: cm;
+  margin: 20px; 
+  margin-right: 0;
+  text-align: center;
+  padding: 1em;
+  border: 1px solid #434b10;
+}
+.map-area-wrapper h1 {
+  font-size: 1.5em;
+  color: #a01414;
+  margin: .7em;
+}
+.map-area-wrapper p {
+  font-size: 1em;
+  color: #434b10;
+  margin: .7em;
+}
+/* FORM SECTION */
+.form-area-wrapper{
+  grid-area: cmr;
+  margin: 20px; 
+  margin-left: 0;
+  text-align: center;
+  padding: 1em;
+  border: 1px solid #434b10;
+}
+
+.form-area-wrapper h1 {
+  font-size: 1.5em;
+  color: #a01414;
+  margin: .7em;
+}
+label {
+  color: #434b10;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+

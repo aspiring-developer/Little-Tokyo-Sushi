@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <!-- ########## REQUIRED META TAGS ########## -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- ########## FONT AWESOME ICON-FONTS ########## -->
+  <script src="https://kit.fontawesome.com/15bf670575.js" crossorigin="anonymous"></script>
+  <!-- ########## STYLE SHEETS - CSS ########## -->
+  <link href="styles/css-RESET-SS.css" style type="text/css" rel="stylesheet">
+    <link href="styles/main.css" style type="text/css" rel="stylesheet"> 
+    <link href="styles/about-only.css" style type="text/css" rel="stylesheet"> 
+    <!-- ########## MEDIA QUERY CSS ########## -->
+  <link rel="stylesheet" href="styles/small-320-700.css" /> 
+  <link rel="stylesheet" href="styles/medium-701-1023.css" />
+ <link rel="stylesheet" href="styles/large-1024-1500.css" />
+  <title>Little Tokyo Sushi & Grill</title>
+</head>
+
+<body>
+  <div class="mainWrapper">
+    <div class="mainHeader hideShow">
+      <!-- This .hideShow div is only visible when the browser window >=1500px wider. -->
+      <div class="hideShow">
+        <h1>Little Tokyo Sushi & Grill </h1>
+        <p>- an authentic Japanese restaurant - </p>
+      </div> <!-- .hideShow ends -->
+      <img src="images/banner-1500-208.jpg" alt="Little Tokyo Sushi Bar & Grill Header Image">
+    </div> <!-- .mainHeader ends-->
+    <!-- ########## MAIN NAVIGATION ########## -->
+    <nav class="mainNav" id="header">
+      <ul>
+        <li id="home-button"> <a href="index.html"> Home </a> </li>
+        <li> <a href="about.html">About </a> </li>
+        <li> <a href="lunch-menu.html">Lunch Menu </a> </li>
+        <li> <a href="dinner-menu.html">Dinner Menu</a> </li>
+        <!-- <li> <a href="#">Rolls & Other Menus </a> </li> -->
+        <li> <a href="other-menu.html">Other Menus </a> </li>
+        <li> <a href="contact.html">Contact Us</a> </li>
+        <li class="socialIcons"><a class="faceBookIcon" href="http://facebook.com" target="_blank"><i class="fab fa-facebook-square "></i></a>
+          <a class="twitterIcon" href="http://twitter.com" target="_blank"><i class="fab fa-twitter-square "></i></a>
+          <a class="instagramIcon" href="http://instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+          <a class="youtubeIcon" href="http://youtube.com" target="_blank"><i class="fab fa-youtube "></i></a>
+          <a class="pinterestIcon" href="http://pinterest.com" target="_blank">
+            <i class="fab fa-pinterest-square "></i></a></li>
+        <li><a href="javascript:void(0);" class="icon" onClick="myFunction()">
+            <i class="fa fa-bars"></i> </a></li>
+      </ul>
+      <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i> </a> -->
+    </nav> <!-- .mainNav ends -->
+    <div class="leftCol"><img src="images/logo.png" class="logo-left" alt="Little Tokyo Sushi Bar & Grill Logo Image">
+      <hr>
+      <p>Enjoy our great foods in a peaceful environment. Experience Japan <br> in your home town.</p>
+      <hr>
+      <p> <strong>We open seven days a week.</strong> <br>
+        <span> Lunch: 11:30 am to 2:30 pm <br>
+          Monday-Saturday <br>
+          Dinner: 5:00 pm to 10:00 pm <br>
+          Monday-Sunday</span></p>
+      <p id="leftColLastPara">Dinning in, carry out, party platters and catering services available.</p>
+      <br>
+      <p>We accept all major credit cards.</p>
+      <br>
+    </div><!-- .leftCol ends-->
+    <div id="about-main-content">
+      <h1>About Little Tokyo</h1>
+      <p>Little Tokyo Sushi Bar &amp; Grill has been serving RTP residents with high quality of food and service for thirty years.</p>
+      <p>&nbsp;</p>
+      <p>Little Tokyo Sushi Bar &amp; Grill is the best choice for diners who want to experience authentic Japanese food at affordable prices. The owner Mr. Tanaka, Ahn, who worked in the center of Japan as a sous chef and moved to North Carolina to recreate international cuisine. The depth of his cooking knowledge and his customer oriented philosophy make Little Tokyo Sushi Bar &amp; Grill a popular place in the RTP area. Fresh ingredients, high quality of food, and friendly service are the critical factors in the success of Little Tokyo Sushi Bar &amp; Grill.</p>
+      <p>&nbsp;</p>
+  <p>Little Tokyo Sushi Bar &amp; Grill is a full service restaurant with take out available. We serve lunch  Monday through Saturday and dinner Monday to  Sunday. The menu includes special house rolls with delightful sauces, fresh sashimi and sushi, and traditional Japanese cuisine made for those who go for their food cooked including diverse noodles, tempuras, teriyaki and hibachi entrees.</p>
+  <p>&nbsp;</p>
+      <p>Come experience the relaxing and comfortable dining ambience for yourself.</p></div> <!-- #about-main-content ends -->
+
+    <div class="rightCol"> <img src="images/aboutImage1.jpg" alt="One of the Chefs Making Sushi" /> <img src="images/aboutImage3.jpg" alt="Sushi Platter Image" /> <img src="images/certificate.jpg" alt="Certificate of Appreciation Image from Wake County Project Assist Program"></div>  <!-- .rightCol ends -->
+
+    <div class="footer">
+      <p>Copyright &copy; 2011 - 2020 &bull; Little Tokyo Sushi Bar & Grill &bull; 1401 SE Maynard Road, Ste. J, Cary, NC 27511 &bull; (919) 467-5011 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>Website designed by: Shiva Sharma </span></p>
+    </div><!-- .footer ends-->
+      </div> <!--  .mainWrapper ends -->
+ <!-- JavaScript -->
+ <script>
+  function myFunction() {
+    var x = document.getElementById("header");
+    if (x.className === "mainNav") {
+      x.className += " responsive";
+    } else {
+      x.className = "mainNav";
+    }
+  }
+</script>
+</body>
+
+</html>
